@@ -7,7 +7,7 @@
  * Plugin Name: BBC Elementor
  * Description: Custom Elementor modules for Brain Bytes Creative
  * Plugin URI:  https://www.brainbytescreative.com/
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Brain Bytes Creative
  * Author URI:  https://www.brainbytescreative.com/
  * Text Domain: bbc-elementor
