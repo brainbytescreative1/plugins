@@ -11,6 +11,7 @@
  * Author:      Brain Bytes Creative
  * Author URI:  https://www.brainbytescreative.com/
  * Text Domain: bbc-elementor
+ * GitHub Plugin URI: brainbytescreative1/plugins
  * GitHub Plugin URI: https://github.com/brainbytescreative1/plugins
  */
 
