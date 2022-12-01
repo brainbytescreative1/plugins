@@ -1,0 +1,98 @@
+.bbc-gravity-form-align-default,
+.bbc-gravity-form-align-left,
+.bbc-gravity-form-btn-align-left {
+  text-align: left;
+  justify-content: flex-start
+}
+
+.bbc-gravity-form-align-right,
+.bbc-gravity-form-btn-align-right {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.bbc-gravity-form-align-center,
+.bbc-gravity-form-btn-align-center {
+  text-align: center;
+  justify-content: center;
+}
+
+.gform_wrapper form li,
+.gform_wrapper li {
+  list-style: none;
+}
+
+.bbc-gravity-form .gform_wrapper ul.gform_fields li.gfield {
+  padding: 0px;
+}
+
+.bbc-gravity-form .gform_wrapper textarea {
+  padding: 0;
+  font-weight: normal !important;
+  font-family: inherit;
+}
+
+.bbc-gravity-form .gform_wrapper .gform_footer input.button,
+.bbc-gravity-form .gform_wrapper .gform_footer input[type=submit],
+.bbc-gravity-form .gform_wrapper .gform_page_footer input.button,
+.bbc-gravity-form .gform_wrapper .gform_page_footer input[type=submit] {
+  margin: 0;
+}
+
+.bbc-gravity-form.title-description-hide .gform_heading {
+  display: none;
+}
+
+.bbc-gravity-form.labels-hide .gform_wrapper .top_label .gfield_label,
+.bbc-gravity-form.labels-hide .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label {
+  display: none;
+}
+
+.bbc-gravity-form-button-full-width .gform_wrapper .gform_footer input[type=submit] {
+  width: 100%;
+}
+
+.bbc-gravity-form .gform_wrapper .gf_scroll_text .gsection_description {
+  margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .gform_wrapper .gf_progressbar {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .gform_wrapper .gf_progressbar {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {
+    max-width: 100% !important;
+  }
+}
+
+.ginput_container_fileupload input[type=file]::file-selector-button,
+.ginput_container_fileupload input[type=file]::-webkit-file-upload-button,
+.ginput_container_fileupload .button {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  padding: 0.5em 1em;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border-radius: 3px;
+}
+
+.ginput_container_fileupload input[type=file]::file-selector-button:hover,
+.ginput_container_fileupload input[type=file]::-webkit-file-upload-button:hover,
+.ginput_container_fileupload .button:hover {
+  background-color: #262625;
+  color: #fff;
+}
