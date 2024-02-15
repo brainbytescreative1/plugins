@@ -4,13 +4,13 @@
  *
  * @package       BBCCUSTOMS
  * @author        Brain Bytes Creative
- * @version       1.0.0
+ * @version       1.0.1
  *
  * @wordpress-plugin
  * Plugin Name:   BBC Custom Snippets
  * Plugin URI:    https://www.brainbytescreative.com/
  * Description:   Short PHP snippets for simple functionality for Brain Bytes Creative websites.
- * Version:       1.0.0
+ * Version:       1.0.1
  * Author:        Brain Bytes Creative
  * Author URI:    https://www.brainbytescreative.com/
  * Text Domain:   bbc-custom-snippets
