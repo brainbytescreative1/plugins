@@ -25,13 +25,25 @@ function bbc_populate_gtm_shortcode() {
 			return false;
 		};
 	
-		var utm_source = getUrlParameter('utm_source');
+		var utm_id = getUrlParameter('utm_id');
+        var utm_source = getUrlParameter('utm_source');
         var utm_medium = getUrlParameter('utm_medium');
+        var utm_name = getUrlParameter('utm_name');
+        var utm_term = getUrlParameter('utm_term');
 		var utm_campaign = getUrlParameter('utm_campaign');
 
 		//var utm_term = getUrlParameter('utm_term');
 		//var utm_content = getUrlParameter('utm_content');
 		
+        // id
+        var utm_id_field = document.querySelector('[value="utm_id"]');
+        if ( utm_id != false ) {
+            if ( utm_id_field != null ) {
+                if ( utm_id_field.value != utm_id ) {
+                    utm_id_field.value = utm_id;
+                }
+            }
+        }
 
         // source
         var utm_source_field = document.querySelector('[value="utm_source"]');
@@ -53,7 +65,27 @@ function bbc_populate_gtm_shortcode() {
             }
         }
 
-        // source
+        // name
+        var utm_name_field = document.querySelector('[value="utm_name"]');
+        if ( utm_name != false ) {
+            if ( utm_name_field != null ) {
+                if ( utm_name_field.value != utm_name ) {
+                    utm_name_field.value = utm_name;
+                }
+            }
+        }
+
+        // term
+        var utm_term_field = document.querySelector('[value="utm_term"]');
+        if ( utm_term != false ) {
+            if ( utm_term_field != null ) {
+                if ( utm_term_field.value != utm_term ) {
+                    utm_term_field.value = utm_term;
+                }
+            }
+        }
+
+        // campaign
         var utm_campaign_field = document.querySelector('[value="utm_campaign"]');
         if ( utm_campaign != false ) {
             if ( utm_campaign_field != null ) {
@@ -61,7 +93,7 @@ function bbc_populate_gtm_shortcode() {
                     utm_campaign_field.value = utm_campaign;
                 }
             }
-    }
+        }
         
 	</script>
 
