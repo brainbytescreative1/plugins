@@ -31,6 +31,7 @@ function bbc_populate_gtm_shortcode() {
         var utm_name = getUrlParameter('utm_name');
         var utm_term = getUrlParameter('utm_term');
 		var utm_campaign = getUrlParameter('utm_campaign');
+        var utm_content = getUrlParameter('utm_content');
 
 		//var utm_term = getUrlParameter('utm_term');
 		//var utm_content = getUrlParameter('utm_content');
@@ -91,6 +92,16 @@ function bbc_populate_gtm_shortcode() {
             if ( utm_campaign_field != null ) {
                 if ( utm_campaign_field.value != utm_campaign ) {
                     utm_campaign_field.value = utm_campaign;
+                }
+            }
+        }
+
+        // content
+        var utm_content_field = document.querySelector('[value="utm_content"]');
+        if ( utm_content != false ) {
+            if ( utm_content_field != null ) {
+                if ( utm_content_field.value != utm_content ) {
+                    utm_content_field.value = utm_content;
                 }
             }
         }
